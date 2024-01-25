@@ -57,11 +57,8 @@ class Record(PolymorphicModel, BaseModel):
         help_text="Event Records",
     )
 
-    # class Meta:
-    #     ordering = ("-created",)
-    #     indexes = (
-    #         models.Index(fields=("user_id",)),
-    #     )
+    class Meta:
+        ordering = ("-created",)
 
 
 class VoiceRecord(Record):

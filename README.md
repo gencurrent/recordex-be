@@ -4,7 +4,7 @@ Recordex is a web application to translate events given by user speech into a te
 
 # Initializing
 
-# Env vaiables
+## Env variables
 
 Check `./env/.dev.env` - the default .env file used locally
 
